@@ -76,7 +76,7 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div key={project.id} className="bg-white shadow-md rounded-lg p-6" data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}>
                 <h3 className="text-xl font-semibold mb-2">
-                  <a href={`${project.URL}`} className="flex items-center">
+                  <a href={`${project.URL}`} className="flex items-center" target="_blank">
                     <FaLink className="ml-1 w-10 rounded-xl bg-orange-500 text-white p-1" />
                   </a>
                 </h3>
