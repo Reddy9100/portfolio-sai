@@ -50,7 +50,7 @@ const Contact = () => {
                 setIsEmailSent(true);
                 setTimeout(() => {
                     setIsEmailSent(false);
-                    history('/home');
+                    history('/');
                 }, 6000);
             }, (error) => {
                 console.log(error.text);
