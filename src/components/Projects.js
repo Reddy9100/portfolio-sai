@@ -61,8 +61,8 @@ const projects = [
     title: "",
     URL: "https://swyft-project.onrender.com/",
     imageUrl: Swiftlogo,
-    description : "Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where users can log in and can see a list of products with search, filters, sort by, etc.Implemented Different pages and routes for Login, Products, Product details using React Router components Route, Switch, Link, props, state, lists, event handlers, form inputs.Authenticating and authorizing users by taking username, password and doing login POST HTTP API Call and implementing filters by sending them as query parameters to product API calls.",
-    Technologies: "React ,Tailwind Css, Node.js, Mysql"
+    description : "Grocery Store Application is a responsive, fast-paced online shopping platform built with React.js, Node.js, Express.js, MongoDB and Tailwind Css.It features secure JWT-based authentication and email notifications, providing a seamless and user-friendly experience across all devices",
+    Technologies: "React ,Tailwind Css, Node.js, MongoDb"
     // other properties
   }
   
