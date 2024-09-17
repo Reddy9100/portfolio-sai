@@ -6,6 +6,7 @@ import TodoList from "../assests/assests/certi/TodoList.jpeg"
 import loginImage from "../assests/assests/certi/user.png"
 import WikipediaImage from "../assests/assests/certi/wikipedia.jpeg"
 import nxtrendsImage from "../assests/assests/certi/nxtTrends.jpeg"
+import Swiftlogo from "../assests/assests/logo.jpeg"
 import Navbar from './Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -55,6 +56,15 @@ const projects = [
     Technologies: "React ,Tailwind Css, Node.js, Mysql"
     // other properties
   },
+  {
+    id: 6,
+    title: "",
+    URL: "https://swyft-project.onrender.com/",
+    imageUrl: Swiftlogo,
+    description : "Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where users can log in and can see a list of products with search, filters, sort by, etc.Implemented Different pages and routes for Login, Products, Product details using React Router components Route, Switch, Link, props, state, lists, event handlers, form inputs.Authenticating and authorizing users by taking username, password and doing login POST HTTP API Call and implementing filters by sending them as query parameters to product API calls.",
+    Technologies: "React ,Tailwind Css, Node.js, Mysql"
+    // other properties
+  }
   
   // Add more projects as needed
 ];
